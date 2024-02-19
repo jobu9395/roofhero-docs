@@ -3,7 +3,7 @@ Documentation for contractors to integrate their CRM with RoofHero's instant AI 
 
 RoofHero's custom API integration is designed for contractors with existing infrastructure to support real time API invocations (typically within their CRM).
 
-After creating a new lead, post to roofhero's API.  This will return a payload with material and address-specific pricing.  The API invocation takes about 1 second.
+After creating a new lead, post to roofhero's API.  This will return a payload with material and address-specific pricing.  The API invocation takes ~1-3 seconds.
 
 Here is an example POST request:
 
