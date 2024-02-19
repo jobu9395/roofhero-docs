@@ -62,5 +62,33 @@ complex
 very complex
 ```
 
+A succesful response will look something like this:
+```
+{
+    "ai_method": "geo-ai",
+    "pricing": {
+        "contractor_email": "info@roofhero.com",
+        "price_per_square_foot": {
+            "asphalt_price": 5.0,
+            "cedar_shake_price": 15.0,
+            "flat_price": 20.0,
+            "metal_price": 12.0,
+            "other_price": 20.0,
+            "repair_price": 299.0,
+            "tile_price": 12.0
+        },
+        "replacement_prices": {
+            "asphalt_price": "$25,418",
+            "cedar_shake_price": "$76,253",
+            "flat_price": "$101,670",
+            "metal_price": "$61,002",
+            "other_price": "$101,670",
+            "tile_price": "$61,002"
+        }
+    },
+    "roof area": "5,084"
+}
+```
+
 Please email info@roofhero.com with any questions.
 
