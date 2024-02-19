@@ -16,7 +16,6 @@ curl --location 'http://www.roofhero.com/ai-pricing' \
 "map_type": "bing",
 "pitch": "flat",
 "complexity": "normal",
-"material": "asphalt",
 "api_client_name": "<api_client_name>"
 }
 '
@@ -39,6 +38,13 @@ street address, city, state, zip
 ```
 town home
 single family home
+```
+
+`map_type` (recommend keeping set to `bing`):
+```
+bing
+google
+mapbox
 ```
 
 `pitch`:
