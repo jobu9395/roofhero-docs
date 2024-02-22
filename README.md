@@ -36,30 +36,30 @@ street address, city, state, zip
 
 `home_type`:
 ```
-town home
-single family home
+"town home"
+"single family home"
 ```
 
 `map_type` (recommend keeping set to `bing`):
 ```
-bing
-google
-mapbox
+"bing"
+"google"
+"mapbox"
 ```
 
 `pitch`:
 ```
-flat
-normal
-steep
-very steep
+"flat"
+"normal"
+"steep"
+"very steep"
 ```
 
 `complexity` (this is waste factor):
 ```
-normal
-complex
-very complex
+"normal"
+"complex"
+"very complex"
 ```
 
 A succesful response will look something like this:
