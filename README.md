@@ -55,12 +55,27 @@ Here are the possible values for all other fields:
 "very steep"
 ```
 
+`pitch` maps to the follow waste factor values, which is multiplied times footprint surface area and `complexity`:
+* `flat: 1.0`
+* `normal: 1.12`
+* `steep: 1.2`
+* `very_steep: 1.3`
+
 `complexity` (this is waste factor):
 ```
+"no_waste"
 "normal"
 "complex"
-"very complex"
+"very complex" 
 ```
+
+`complexity` maps to the follow waste factor values, which is multiplied times footprint surface area and `pitch`:
+* `no_waste: 1.0`
+* `normal: 1.1`
+* `complex: 1.2`
+* `very_complex: 1.3`
+
+* The final calculation is `footprint_surface_area` * `pitch` * `complexity`
 
 A succesful response will look something like this:
 ```
