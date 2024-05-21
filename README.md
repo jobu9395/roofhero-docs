@@ -31,7 +31,7 @@ Here are the possible values for all other fields:
 
 `address` (must be a valid address):
 ```
-"street address, city, state, zip"
+"<street address>, <city>, <state>, <zip>"
 ```
 
 `home_type`:
