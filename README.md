@@ -8,7 +8,7 @@ After creating a new lead, post to roofhero's API.  This will return a payload w
 Here is an example POST request:
 
 ```
-curl --location 'http://www.roofhero.com/ai-pricing' \
+curl --location 'https://www.roofhero.com/ai-pricing' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <token>' \
 --data '{"address": "<address>", 
