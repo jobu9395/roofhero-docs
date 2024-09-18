@@ -3,6 +3,13 @@ Documentation for publishers to ping and post leads to RoofHero's lead engine.  
 
 If you'd like to apply to be a publisher, email info@roofhero.com.
 
+## Rules we enforce:
+* De-duplication.  If a lead comes in with the same address within a 24-hour period, regardless of source, we will not buy it.
+* Coverage verification.  If a lead is not in our zone, we will bid back with $0
+* Prior-ping verification.  We require the initial ping and the following post to carry the same `external_lead_id`.  We fetch metadata about the lead that was generated during the ping to post to our network of advertisers.
+* Payload validation.  Both a ping and post request will fail if any required fields are missing, or if the values are not as defined below.
+* Further payload specs are defined below.
+
 ## Here is an example PING request:
 
 ```
