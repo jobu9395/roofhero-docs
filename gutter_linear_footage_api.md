@@ -5,7 +5,7 @@ RoofHero's custom API integration is designed for contractors with existing infr
 
 After creating a new lead, post to roofhero's API.  This will return a payload with the linear footage.  The API invocation takes ~1-3 seconds.
 
-The linear footage returned includes estimated downspout length.
+The linear footage returned includes estimated downspout length.  Most fields are self explanatory, except `shape`.  If the value is set to `normal`, we assume a 3:2 eave to rake ratio, and gutters are only on eaves.  If it is set to `gable`, it assumes the full perimeter of the roof is covered with gutters.
 
 Here is an example POST request:
 
@@ -45,7 +45,6 @@ Here are the possible values for all other fields:
 ```
 "normal"
 "gable"
-"mapbox"
 ```
 
 `num_stores`:
