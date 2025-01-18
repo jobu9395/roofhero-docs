@@ -102,6 +102,8 @@ A succesful response will look something like this:
         }
     },
     "roof area": "5,084"
+    "gutter_linear_footage": "130",
+    "downspout_linear_footage": "173"
 }
 ```
 
